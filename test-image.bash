@@ -7,7 +7,7 @@ function build() {
 }
 
 function run() {
-  docker run 'thieux/hello'
+  docker run 'thieux/hello' /bin/echo 'Hello world'
 }
 
 build | grep 'Successfully built' --quiet && ok || fail
