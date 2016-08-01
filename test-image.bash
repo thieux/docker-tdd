@@ -1,3 +1,7 @@
 #!/bin/bash
 
-docker build -t 'thieux/hello' .
+function build() {
+  docker build -t 'thieux/hello' .
+}
+
+build
