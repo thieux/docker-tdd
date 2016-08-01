@@ -1,2 +1,2 @@
 # Hello world docker file
-FROM dummy
+FROM ubuntu
