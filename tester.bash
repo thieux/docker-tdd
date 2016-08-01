@@ -1,4 +1,13 @@
 #!/bin/bash
 
-echo -e "\e[31mRED\e[0m"
-echo -e "\e[32mGREEN\e[0m"
+function fail() {
+  echo -e "\e[31mFAIL!\e[0m"
+}
+
+
+function ok() {
+  echo -e "\e[32mOK\e[0m"
+}
+
+fail
+ok
