@@ -9,5 +9,5 @@ function ok() {
   echo -e "\e[32mOK\e[0m"
 }
 
-fail
-ok
+test a = b || fail
+test a = a && ok
